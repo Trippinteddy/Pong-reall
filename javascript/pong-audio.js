@@ -43,8 +43,8 @@ export var soundArray = []; //list of sounds loaded
 
 //Here is where all the Sound File Players Start
 
-//export var wallSound = new soundFile("Adventure_Meme.mp3"); //load sound
-//soundArray.push(wallSound); //add sound to list of sounds
+export var wallSound = new soundFile("Adventure_Meme.mp3"); //load sound
+soundArray.push(wallSound); //add sound to list of sounds
 
 export var paddleSound = new soundFile("tap-resonant.mp3");
 soundArray.push(paddleSound);
